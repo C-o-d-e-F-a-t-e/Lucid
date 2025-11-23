@@ -71,10 +71,12 @@ Persistent model updates
 Domain adaptation capabilities
 
 Installation Steps
-git clone https://github.com/C-o-d-e-F-a-t-e/Lucid.git
-cd Lucid
-pip install -r requirements.txt
-python app.py
+
+    git clone https://github.com/C-o-d-e-F-a-t-e/Lucid.git
+    cd Lucid
+    pip install -r requirements.txt
+    python app.py
+
 🎮 Usage
 Text Analysis
 
