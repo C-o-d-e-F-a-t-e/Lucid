@@ -71,6 +71,38 @@ User Dataset Integration
 
     Domain adaptation capabilities
 
+Installation Steps
 git clone https://github.com/C-o-d-e-F-a-t-e/Lucid.git
 cd Lucid
 pip install -r requirements.txt
+python app.py
+🎮 Usage
+Text Analysis
+
+    Navigate to the text analysis section
+
+    Paste or type the news content you want to verify
+
+    Click "Analyze Text" to get instant results
+
+    View confidence score and detailed analysis
+
+Image Analysis
+
+    Go to the image analysis section
+
+    Upload an image file (PNG, JPG, JPEG)
+
+    Receive authenticity report with key findings
+
+    View manipulation detection results
+
+Dataset Contribution
+
+    Access the dataset upload section
+
+    Upload a CSV file with 'text' and 'label' columns
+
+    Labels must be 'REAL' or 'FAKE'
+
+    Contribute to improving the model's accuracy
