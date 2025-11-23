@@ -8,7 +8,7 @@ Project Context: Developed for the UNBREAKING NEWS 2.0 Hackathon - Press & Secur
 
 The proliferation of fabricated and AI-generated content has created an urgent need for reliable detection mechanisms. Misinformation impacts academic, social, and political domains, making automated verification critical. Lucid addresses this challenge by offering a user-adaptive system capable of classifying content as authentic or fake.
 
-✨ Key Features
+✨ Key Features:
 
 Text Authenticity Detection: Classifies news articles as REAL or FAKE using machine learning
 
@@ -25,7 +25,7 @@ Multi-domain Support: Adapts to various content domains (historical, political, 
 🏗️ System Architecture
 
 Lucid follows a three-tier client-server architecture:
-Frontend Layer
+Frontend Layer:
 
 HTML5/CSS3/JavaScript with modern blur effects and responsive design
 
@@ -33,13 +33,13 @@ User-friendly interface for text/image submission and dataset uploads
 
 Real-time result display with confidence indicators
 
-Backend Layer
+Backend Layer:
 
 Flask web server handling HTTP requests and responses
 
 File upload handling for datasets and images
 
-Machine Learning Layer
+Machine Learning Layer:
 
 TF-IDF Vectorization for text feature extraction
 
@@ -50,7 +50,7 @@ Joblib persistence for model storage and loading
 Retraining pipeline for user-uploaded datasets
 
 📊 Methodology
-Data Processing Pipeline
+Data Processing Pipeline:
 
 Text Preprocessing: Stopword removal, normalization, cleaning
 
@@ -70,7 +70,7 @@ Persistent model updates
 
 Domain adaptation capabilities
 
-Installation Steps
+Installation Steps:
 
     git clone https://github.com/C-o-d-e-F-a-t-e/Lucid.git
     cd Lucid
@@ -78,7 +78,7 @@ Installation Steps
     python app.py
 
 🎮 Usage
-Text Analysis
+Text Analysis:
 
 Navigate to the text analysis section
 
@@ -88,7 +88,7 @@ Click "Analyze Text" to get instant results
 
 View confidence score and detailed analysis
 
-Image Analysis
+Image Analysis:
 
 Go to the image analysis section
 
@@ -98,7 +98,7 @@ Receive authenticity report with key findings
 
 View manipulation detection results
 
-Dataset Contribution
+Dataset Contribution:
 
 Access the dataset upload section
 
