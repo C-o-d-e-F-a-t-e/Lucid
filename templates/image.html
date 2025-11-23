@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/news1.css" />
+    <link rel="icon" type="image/png" href="/static/css/icon.png" />
+    <title>Lucid</title>
+  </head>
+  <body>
+    <div class="interface">
+      <div class="tool_interface">
+        <nav class="tool_wrapper">
+          <button class="checker"><a href="./image.html">Image</a></button>
+          <button class="checker"><a href="./text.html">Text</a></button>
+        </nav>
+        <form
+          action="/image.html"
+          method="POST"
+          class="form_text"
+          enctype="multipart/form-data"
+        >
+          <label for="textInput" class="input_label" id="text">
+            Enter an Image:
+          </label>
+          <label for="upload_image" class="custom_upload">Choose File :</label>
+          <input type="file" name="uploadimage" id="upload_image" />
+          <span id="file_image">No file selected</span>
+          <img src="" id="image" />
+          <button type="submit" class="checker">Submit</button>
+        </form>
+        <div id="result">
+          News credibility will appear here...<br />
+          {{result}}
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    // IMAGE UPLOAD
+    const uploadImage = document.getElementById("upload_image");
+    const fileImage = document.getElementById("file_image");
+    const image = document.getElementById("image");
+
+    uploadImage.addEventListener("change", () => {
+      if (uploadImage.files.length > 0) {
+        fileImage.textContent = uploadImage.files[0].name;
+        image.src = URL.createObjectURL(uploadImage.files[0]); // PREVIEW
+      } else {
+        fileImage.textContent = "No file selected";
+        image.src = "";
+      }
+    });
+  </script>
+</html>

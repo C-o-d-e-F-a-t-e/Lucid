@@ -1,0 +1,73 @@
+2025-11-23 06:53:03,835 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-09 144622.png
+2025-11-23 06:53:05,137 - INFO - 127.0.0.1 - - [23/Nov/2025 06:53:05] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 06:53:05,248 - INFO - 127.0.0.1 - - [23/Nov/2025 06:53:05] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 06:53:05,294 - INFO - 127.0.0.1 - - [23/Nov/2025 06:53:05] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 06:54:33,494 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\fake_text.py', reloading
+2025-11-23 06:54:50,754 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 06:54:51,496 - INFO - 127.0.0.1 - - [23/Nov/2025 06:54:51] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 06:54:51,757 - INFO - 127.0.0.1 - - [23/Nov/2025 06:54:51] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 06:54:51,796 - INFO - 127.0.0.1 - - [23/Nov/2025 06:54:51] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 06:56:10,814 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\fake_text.py', reloading
+2025-11-23 06:56:23,690 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 06:56:24,695 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:24] "[35m[1mPOST /image.html HTTP/1.1[0m" 500 -
+2025-11-23 06:56:24,993 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:24] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 06:56:25,000 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:25] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 06:56:25,037 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:25] "GET /image.html?__debugger__=yes&cmd=resource&f=console.png&s=fS8SDKpYO0LgUG7n8LZV HTTP/1.1" 200 -
+2025-11-23 06:56:54,467 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 06:56:55,285 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:55] "[35m[1mPOST /image.html HTTP/1.1[0m" 500 -
+2025-11-23 06:56:55,456 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:55] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 06:56:55,459 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:55] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 06:56:55,507 - INFO - 127.0.0.1 - - [23/Nov/2025 06:56:55] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=console.png&s=fS8SDKpYO0LgUG7n8LZV HTTP/1.1[0m" 304 -
+2025-11-23 06:57:49,156 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\fake_text.py', reloading
+2025-11-23 06:57:59,926 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 06:58:00,664 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:00] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 06:58:00,906 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:00] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 06:58:00,933 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:00] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 06:58:10,104 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 06:58:11,036 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:11] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 06:58:11,114 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:11] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 06:58:11,142 - INFO - 127.0.0.1 - - [23/Nov/2025 06:58:11] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:00:42,379 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\metadata_checker.py', reloading
+2025-11-23 07:00:52,828 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-22 211511.png
+2025-11-23 07:00:53,620 - INFO - 127.0.0.1 - - [23/Nov/2025 07:00:53] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:00:53,855 - INFO - 127.0.0.1 - - [23/Nov/2025 07:00:53] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:00:53,884 - INFO - 127.0.0.1 - - [23/Nov/2025 07:00:53] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:02:24,908 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\fake_text.py', reloading
+2025-11-23 07:02:37,080 - INFO - Analyzing image: ./uploads/Screenshot 2025-11-09 144622.png
+2025-11-23 07:02:37,850 - INFO - 127.0.0.1 - - [23/Nov/2025 07:02:37] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:02:38,117 - INFO - 127.0.0.1 - - [23/Nov/2025 07:02:38] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:02:38,202 - INFO - 127.0.0.1 - - [23/Nov/2025 07:02:38] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:03:40,437 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\metadata_checker.py', reloading
+2025-11-23 07:18:22,064 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:18:23,105 - INFO - 127.0.0.1 - - [23/Nov/2025 07:18:23] "[35m[1mPOST /image.html HTTP/1.1[0m" 500 -
+2025-11-23 07:18:23,389 - INFO - 127.0.0.1 - - [23/Nov/2025 07:18:23] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-23 07:18:23,393 - INFO - 127.0.0.1 - - [23/Nov/2025 07:18:23] "[36mGET /image.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-23 07:18:23,455 - INFO - 127.0.0.1 - - [23/Nov/2025 07:18:23] "GET /image.html?__debugger__=yes&cmd=resource&f=console.png&s=IDI9UaOBCOmWLPituCbt HTTP/1.1" 200 -
+2025-11-23 07:18:56,943 - INFO -  * Detected change in 'c:\\Users\\adema\\OneDrive\\Desktop\\Lucid\\metadata_checker.py', reloading
+2025-11-23 07:19:08,100 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:19:08,939 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:08] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:19:09,173 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:09] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:19:09,204 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:09] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:19:29,138 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:19:29,815 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:29] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:19:30,076 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:30] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:19:30,093 - INFO - 127.0.0.1 - - [23/Nov/2025 07:19:30] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:21:33,870 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:21:34,741 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:34] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:21:34,903 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:34] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:21:34,925 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:34] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:21:47,588 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:21:48,299 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:48] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:21:48,483 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:48] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:21:48,501 - INFO - 127.0.0.1 - - [23/Nov/2025 07:21:48] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:22:19,131 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:22:19,964 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:19] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:22:20,107 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:20] "GET /static/css/news1.css HTTP/1.1" 200 -
+2025-11-23 07:22:20,125 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:20] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:22:37,476 - INFO - Analyzing image: ./uploads/icon.png
+2025-11-23 07:22:38,162 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:38] "POST /image.html HTTP/1.1" 200 -
+2025-11-23 07:22:38,311 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:38] "GET /static/css/news1.css HTTP/1.1" 200 -
+2025-11-23 07:22:38,329 - INFO - 127.0.0.1 - - [23/Nov/2025 07:22:38] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -
+2025-11-23 07:24:21,868 - INFO - 127.0.0.1 - - [23/Nov/2025 07:24:21] "GET /text.html HTTP/1.1" 200 -
+2025-11-23 07:24:22,110 - INFO - 127.0.0.1 - - [23/Nov/2025 07:24:22] "[36mGET /static/css/news1.css HTTP/1.1[0m" 304 -
+2025-11-23 07:24:22,131 - INFO - 127.0.0.1 - - [23/Nov/2025 07:24:22] "[36mGET /static/css/background.png HTTP/1.1[0m" 304 -

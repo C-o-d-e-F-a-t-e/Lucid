@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/news1.css" />
+    <link rel="icon" type="image/png" href="/static/css/icon.png" />
+    <title>Lucid</title>
+  </head>
+  <body>
+    <div class="interface">
+      <div class="tool_interface">
+        <nav class="tool_wrapper">
+          <button class="checker"><a href="./image.html">Image</a></button>
+          <button class="checker"><a href="./text.html">Text</a></button>
+        </nav>
+        <form action="/text.html" method="POST" class="form_text">
+          <label for="textInput" class="input_label" id="text"
+            >Enter something:</label
+          >
+          <textarea
+            name="textInput"
+            placeholder="Enter your message"
+            id="textInput"
+            required
+          ></textarea>
+          <button type="submit" class="checker">Submit</button>
+        </form>
+
+        <form action="/text.html" method="post" class="form_text">
+          <p class="upload_file">
+            Alternatively, you may provide your own dataset to perform the news
+            verification.
+          </p>
+          <label for="upload_text" class="custom_upload">Choose File</label>
+          <input type="file" name="upload" id="upload_text" />
+          <span id="file_text">No file selected</span>
+        </form>
+        <div id="result">
+          News credibility will appear here...<br />
+          {{result}}
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const uploadText = document.getElementById("upload_text");
+    const fileText = document.getElementById("file_text");
+
+    uploadText.addEventListener("change", () => {
+      fileText.textContent = uploadText.files.length
+        ? uploadText.files[0].name
+        : "No file selected";
+    });
+  </script>
+</html>

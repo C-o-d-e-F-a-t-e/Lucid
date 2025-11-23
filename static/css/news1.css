@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.interface {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  padding-top: 2vh;
+}
+/* Style the H1 */
+.tool_interface h1 {
+  max-width: 70vw; /* readable line length */
+  font-size: 1.5vw;
+  line-height: 1.8;
+  text-align: center;
+  color: #eedab7; /* matches your palette */
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.tool_wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 2vh 0;
+}
+
+.tool_interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5vh;
+  width: 90vw;
+}
+
+.form_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+  width: 50vw;
+}
+
+.input_label {
+  color: #483618;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 0 2.5px #483618;
+  margin-top: 16%;
+}
+
+#textInput {
+  width: 50vw;
+  padding: 2% 3%;
+  border: 1% solid #e1e5e9;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  border-color: #eedab7;
+  color: #eedab7;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  resize: none;
+  height: 20vh;
+  overflow-y: auto;
+}
+
+#textInput::placeholder {
+  color: white;
+}
+
+#textInput:focus {
+  border-color: #301f0a;
+  outline: none;
+}
+
+#result {
+  width: 50%;
+  height: fit-content;
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 1.2vw;
+}
+
+/* Button Styles */
+.checker {
+  padding: 1.5% 3%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: #483618;
+  font-size: 1.2vw;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style for the navigation buttons (Image and Text buttons) */
+.tool_wrapper .checker {
+  background: rgba(238, 218, 183, 0.7);
+  border: 2px solid #483618;
+  font-weight: bold;
+  min-width: 120px;
+  text-align: center;
+}
+
+.tool_wrapper .checker:hover {
+  background: rgba(72, 54, 24, 0.8);
+  color: #eedab7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tool_wrapper .checker:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the submit button */
+.form_text .checker {
+  background: rgba(72, 54, 24, 0.7);
+  border: 2px solid #eedab7;
+  color: #eedab7;
+  font-weight: bold;
+  padding: 1.5% 5%;
+}
+
+.form_text .checker:hover {
+  background: rgba(238, 218, 183, 0.8);
+  color: #483618;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form_text .checker:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Remove default link styling */
+.checker a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Active state for navigation buttons */
+.tool_wrapper .checker.active {
+  background: rgba(72, 54, 24, 0.9);
+  color: #eedab7;
+  border-color: #301f0a;
+}
+.upload_file {
+  max-width: 70vw; /* readable line length */
+  font-size: 1.5vw;
+  line-height: 1.8;
+  text-align: center;
+  color: #eedab7; /* matches your palette */
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.35);
+  margin-top: 3vh;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+/* Upload section */
+.upload_file {
+  font-size: 1.4vw;
+  text-align: center;
+  color: #eedab7;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 1vh 2vw;
+  border-radius: 15px;
+}
+
+/* Hide the native input */
+#upload_text {
+  display: none;
+}
+
+/* Custom upload button */
+.custom_upload {
+  padding: 1vh 2vw;
+  background: rgba(72, 54, 24, 0.75);
+  color: #eedab7;
+  border: 2px solid #eedab7;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.custom_upload:hover {
+  background: rgba(238, 218, 183, 0.8);
+  color: #483618;
+  transform: translateY(-2px);
+}
+
+/* Display selected file name */
+#file_text {
+  max-width: 70vw; /* readable line length */
+  font-size: 1.5vw;
+  line-height: 1.8;
+  text-align: center;
+  color: #eedab7; /* matches your palette */
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.35);
+  margin-top: 3vh;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem;
+}
+
+#upload_image {
+  display: none;
+}
+
+/* Custom upload button */
+.custom_upload {
+  padding: 1vh 2vw;
+  background: rgba(72, 54, 24, 0.75);
+  color: #eedab7;
+  border: 2px solid #eedab7;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.custom_upload:hover {
+  background: rgba(238, 218, 183, 0.8);
+  color: #483618;
+  transform: translateY(-2px);
+}
+
+#file_image {
+  max-width: 70vw; /* readable line length */
+  font-size: 1.5vw;
+  line-height: 1.8;
+  text-align: center;
+  color: #eedab7; /* matches your palette */
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.35);
+  margin-top: 3vh;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem;
+}
+
+#image {
+  max-width: 50%;
+}
